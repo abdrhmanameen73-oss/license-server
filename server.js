@@ -63,7 +63,7 @@ app.post("/validate", (req, res) => {
 });
 
 /* =========================
-   Health Check
+   Health Chec
 ========================= */
 app.get("/", (req, res) => {
   res.send("License Server Running");
